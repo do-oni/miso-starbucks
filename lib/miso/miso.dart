@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:miso_starbucks/miso/first_page.dart';
+import 'package:miso_starbucks/miso/forthpage.dart';
+import 'package:miso_starbucks/miso/second_page.dart';
+import 'package:miso_starbucks/miso/third_page.dart';
 
 /// Miso 메인 색상
 Color misoPrimaryColor = Color.fromARGB(255, 38, 103, 240);
@@ -51,62 +55,5 @@ class _MisoState extends State<Miso> {
   }
 }
 
-/// 첫 번째 페이지
-class MisoFirstPage extends StatelessWidget {
-  const MisoFirstPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Miso 첫 번째 페이지"),
-      ),
-    );
-  }
-}
-
-/// 두 번째 페이지
-class MisoSecondPage extends StatelessWidget {
-  const MisoSecondPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Miso 두 번째 페이지"),
-      ),
-    );
-  }
-}
-
-/// 세 번째 페이지
-class MisoThirdPage extends StatelessWidget {
-  const MisoThirdPage({Key? key}) : super(key: key);
-
-  /// 세 번째 화면 배경 이미지 URL
-  final String backgroundImgUrl =
-      "https://i.ibb.co/rxzkRTD/146201680-e1b73b36-aa1e-4c2e-8a3a-974c2e06fa9d.png";
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Miso 세 번째 페이지"),
-      ),
-    );
-  }
-}
-
 /// 네 번째 페이지
-class MisoFourthPage extends StatelessWidget {
-  const MisoFourthPage({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Miso 네 번째 페이지"),
-      ),
-    );
-  }
-}
